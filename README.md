@@ -4,7 +4,7 @@ MiniJavaCompiler
 A compiler for MiniJava
 
 
-This is a compiler for MiniJava, a subset of Java language. 
+This is a compiler for MiniJava, a subset of Java language. It is done as part of course project for Comp520 Compiler at University of North Carolina, Chapel Hill. 
 
 To run the program, use the following steps:
 
