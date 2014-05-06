@@ -1,0 +1,29 @@
+class A{
+
+        public static void main(String[]args){
+
+                print();
+        }
+
+        public static void print(){
+                System.out.println(fibonacci(B.add(1,2)));
+
+        }
+        public static int fibonacci(int n){
+
+                int result=1;
+                if(n>=3)
+                        result=result+fibonacci(n-1);
+                return result;
+        }
+
+}
+
+
+class B{
+
+        public static int add(int a, int b){
+                return a+b;
+        }
+
+}
